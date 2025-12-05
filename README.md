@@ -74,7 +74,7 @@ pip install spconv-cu116
 conda install openblas-devel -c anaconda
 export CPLUS_INCLUDE_PATH=CPLUS_INCLUDE_PATH:${YOUR_CONDA_ENVS_DIR}/include
 # Replace `${YOUR_CONDA_ENVS_DIR}` with your actual conda environment path (e.g., `/home/username/anaconda3/envs/pss`)
-pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps --config-settings="--blas_include_dirs=/opt/conda/include" --config-settings="–blas=openblas"
+pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps --config-settings="--blas_include_dirs=/opt/conda/include" --config-settings="--blas=openblas"
 ```
 
 > **Troubleshooting**: If you encounter `ImportError: Pytorch not found`, or `ModuleNotFoundError: No module named 'torch'`, add `--no-build-isolation` after `--config-settings="--blas=openblas"`
