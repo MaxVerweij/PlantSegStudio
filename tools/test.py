@@ -104,6 +104,29 @@ def trigger_inference_hook(cfg, args):
     return cfg
 
 
+def enable_per_file_metrics(cfg):
+    """Enable per-file metric export for UnifiedSegMetric evaluators."""
+
+    def _update_evaluator(evaluator_cfg):
+        if isinstance(evaluator_cfg, (list, tuple)):
+            for item in evaluator_cfg:
+                _update_evaluator(item)
+            return
+
+        if not isinstance(evaluator_cfg, (dict, ConfigDict)):
+            return
+
+        if evaluator_cfg.get('type') == 'UnifiedSegMetric':
+            evaluator_cfg.setdefault(
+                'per_file_metric_prefix',
+                osp.join(cfg.work_dir, 'per_file_metrics'))
+
+    if hasattr(cfg, 'test_evaluator'):
+        _update_evaluator(cfg.test_evaluator)
+
+    return cfg
+
+
 def main():
     args = parse_args()
 
@@ -132,6 +155,7 @@ def main():
         cfg = trigger_visualization_hook(cfg, args)
     if args.save_local:
         cfg = trigger_inference_hook(cfg, args)
+    cfg = enable_per_file_metrics(cfg)
     if args.tta:
         # Currently, we only support tta for 3D segmentation
         # TODO: Support tta for 3D detection
