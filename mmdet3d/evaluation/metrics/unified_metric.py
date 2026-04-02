@@ -71,8 +71,9 @@ class UnifiedSegMetric(SegMetric):
                     cpu_pred_3d[k] = v
 
             sample_name = None
-            if 'lidar_path' in data_sample:
-                sample_name = osp.basename(data_sample.lidar_path)
+            lidar_path = data_sample.get('lidar_path', None)
+            if lidar_path is not None:
+                sample_name = osp.basename(lidar_path)
             elif 'lidar_idx' in eval_ann_info:
                 sample_name = str(eval_ann_info['lidar_idx'])
 
