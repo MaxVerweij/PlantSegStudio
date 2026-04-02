@@ -12,7 +12,12 @@ from .mink_single_stage import MinkSingleStage3DDetector
 from .multiview_dfm import MultiViewDfM
 from .mvx_faster_rcnn import DynamicMVXFasterRCNN, MVXFasterRCNN
 from .mvx_two_stage import MVXTwoStageDetector
-from .oneformer3d import InstanceOnlyOneFormer3D, MinkVoxelOneFormer3D, S3DISOneFormer3D
+try:
+    from .oneformer3d import InstanceOnlyOneFormer3D, MinkVoxelOneFormer3D, S3DISOneFormer3D
+except ImportError:
+    InstanceOnlyOneFormer3D = None
+    MinkVoxelOneFormer3D = None
+    S3DISOneFormer3D = None
 from .parta2 import PartA2
 from .point_rcnn import PointRCNN
 from .pv_rcnn import PointVoxelRCNN
@@ -25,9 +30,18 @@ from .votenet import VoteNet
 from .voxelnet import VoxelNet
 
 __all__ = [
-    'Base3DDetector', 'VoxelNet', 'DynamicVoxelNet', 'MVXTwoStageDetector', 'DynamicMVXFasterRCNN',
-    'MVXFasterRCNN', 'PartA2', 'VoteNet', 'H3DNet', 'CenterPoint', 'SSD3DNet', 'ImVoteNet',
-    'SingleStageMono3DDetector', 'FCOSMono3D', 'ImVoxelNet', 'GroupFree3DNet', 'PointRCNN',
-    'SMOKEMono3D', 'SASSD', 'MinkSingleStage3DDetector', 'MultiViewDfM', 'DfM', 'PointVoxelRCNN',
-    'S3DISOneFormer3D', 'InstanceOnlyOneFormer3D', 'SoftGroup', 'MinkVoxelOneFormer3D'
+    'Base3DDetector', 'VoxelNet', 'DynamicVoxelNet', 'MVXTwoStageDetector',
+    'DynamicMVXFasterRCNN', 'MVXFasterRCNN', 'PartA2', 'VoteNet', 'H3DNet',
+    'CenterPoint', 'SSD3DNet', 'ImVoteNet', 'SingleStageMono3DDetector',
+    'FCOSMono3D', 'ImVoxelNet', 'GroupFree3DNet', 'PointRCNN',
+    'SMOKEMono3D', 'SASSD', 'MinkSingleStage3DDetector', 'MultiViewDfM',
+    'DfM', 'PointVoxelRCNN', 'SoftGroup'
 ]
+
+# Only append if available
+if InstanceOnlyOneFormer3D is not None:
+    __all__ += [
+        'S3DISOneFormer3D',
+        'InstanceOnlyOneFormer3D',
+        'MinkVoxelOneFormer3D'
+    ]

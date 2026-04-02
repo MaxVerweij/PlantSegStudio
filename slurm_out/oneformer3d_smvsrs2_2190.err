@@ -1,0 +1,256 @@
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:39: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / (hist.sum(1) + hist.sum(0) - np.diag(hist))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:87: RuntimeWarning: invalid value encountered in divide
+  return np.nanmean(np.diag(hist) / hist.sum(axis=1))
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:63: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(0)
+/storage/scratch/6791409/PlantSegStudio/mmdet3d/evaluation/functional/seg_eval.py:73: RuntimeWarning: invalid value encountered in divide
+  return np.diag(hist) / hist.sum(1)

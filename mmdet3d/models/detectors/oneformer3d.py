@@ -1,5 +1,8 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-import MinkowskiEngine as ME
+try:
+    import MinkowskiEngine as ME
+except ImportError:
+    ME = None
 import spconv.pytorch as spconv
 import torch
 import torch.nn.functional as F

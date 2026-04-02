@@ -68,6 +68,8 @@ instance/
 docs/en/_build/
 docs/zh_cn/_build/
 
+
+
 # PyBuilder
 target/
 
@@ -111,6 +113,7 @@ venv.bak/
 .idea
 
 # custom
+data/*
 *.pkl
 *.pkl.json
 *.log.json

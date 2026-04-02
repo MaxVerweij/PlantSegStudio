@@ -98,6 +98,8 @@ class SpConvBackbone(BaseModule):
             x = ME.SparseTensor(voxel_features, coors)
 
         x = self.input_conv(x)
-        x, _ = self.unet(x)
+        x = self.unet(x)
+        if isinstance(x, tuple):
+            x = x[0]
         x = self.output_layer(x)
         return x.features
