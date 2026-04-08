@@ -66,5 +66,9 @@
 "SMVSRS2_NPEC": {
   "feature": 3,
   "label": {"mainstem": 0, "stem": 1, "leaf": 2},
+  "instance":["stem", "leaf"]},
+"SMVS_2RS": {
+  "feature": 3,
+  "label": {"mainstem": 0, "stem": 1, "leaf": 2},
   "instance":["stem", "leaf"]}
 }

@@ -1,8 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=train_pss
+#SBATCH --mail-user=m.t.verweij@students.uu.nl
+#SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --partition=gpua6000
 #SBATCH --gres=gpu:1
-#SBATCH --time=04:00:00
+#SBATCH --time=06:00:00
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=8G
 #SBATCH --output=slurm_out/%x_%j.log
